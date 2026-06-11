@@ -13,7 +13,7 @@ from pathlib import Path
 
 PRODUCT_URL  = "https://www.bestbuy.ca/en-ca/product/apple-macbook-air-13-6-w-touch-id-2026-midnight-apple-m5-16gb-ram-512gb-ssd-english/19791103"
 PRODUCT_NAME = 'MacBook Air 13" M5 (Best Buy Canada)'
-TARGET_PRICE = 1499.00
+TARGET_PRICE = 1399.00
 
 CONFIG_FILE = Path(__file__).parent / "config.json"
 STATE_FILE  = Path(__file__).parent / "last_price.json"

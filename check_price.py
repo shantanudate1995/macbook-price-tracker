@@ -16,7 +16,7 @@ PRODUCT_ID   = "19791103"
 PRODUCT_URL  = f"https://www.bestbuy.ca/en-ca/product/apple-macbook-air-13-6-w-touch-id-2026-midnight-apple-m5-16gb-ram-512gb-ssd-english/{PRODUCT_ID}"
 API_URL      = f"https://www.bestbuy.ca/api/v2/json/product/{PRODUCT_ID}?lang=en-CA"
 PRODUCT_NAME = "MacBook Air 13\" M5 (Best Buy Canada)"
-TARGET_PRICE = 1499.00   # alert if price drops below this
+TARGET_PRICE = 1399.00   # alert if price drops below this
 
 CONFIG_FILE = Path(__file__).parent / "config.json"
 STATE_FILE  = Path(__file__).parent / "last_price.json"
